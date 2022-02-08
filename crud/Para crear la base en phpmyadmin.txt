@@ -1,0 +1,13 @@
+create database crud;
+use crud;
+
+create table persona(
+  codigo int auto_increment primary key,
+  nombres varchar(100),
+  apellidos varchar(100),
+  puesto varchar(50),
+  contacto varchar(10)
+);
+
+INSERT INTO persona(nombres, apellidos, puesto, contacto) VALUES 
+('Luis Emmanuel','Arrieta Bedoya','Desarrollador','3015835993')
